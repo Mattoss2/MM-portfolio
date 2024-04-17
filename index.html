@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Monville Mathys</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-white text-gray-800">
+    <header class="text-center p-6 text-white">
+       
+        <div class="txtband">
+            <div class="ppbox">
+            <img src="./images/IMG_6507.jpg" alt="profile-picture" class="profile-picture">
+        </div>
+        <h1>Monville Mathys</h1>
+        <p>Développeur Web</p>
+        <nav class="flex justify-center space-x-4 mt-4">
+            <a href="#about" class="text-white hover:text-gray-300">À Propos</a>
+            <a href="#projects" class="text-white hover:text-gray-300">Mes Travaux</a>
+            <a href="#skills" class="text-white hover:text-gray-300">Compétences</a>
+            <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
+        </nav>
+    </div>
+    </header>
+    <div class="sectiontitle">
+    <h2 class="text-2xl font-bold mb-4">À Propos de Moi</h2>  
+</div>
+    <section id="about" class="my-8 px-6">
+       
+        <button id="aboutToggle" style="cursor: pointer;"  class=" fa-solid fa-user-secret"></button>
+        <div id="aboutContent" style="display: none;">
+            <p id="typing"></p>
+            
+        <div class="linkbox">
+        <a href="https://github.com/Mattoss2" class="text-gray-900 hover:text-gray-700" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+        </a>
+        <!-- Bouton CV -->
+        <a href="URL_vers_votre_CV" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" target="_blank">
+            Télécharger CV
+        </a>
+    </div>
+    </div>
+    </section>
+    <div class="sectiontitle">
+    <h2 class="text-2xl font-bold mb-4">Projets</h2>
+</div>
+    <section id="projects" class="my-8 px-6">
+        <!-- Project 1 -->
+        <div class="project">
+            <div class="project-inner">
+                <img src="./images/miniatureprojet.jpg" alt="Miniature Projet 1" class="project-image">
+                <div class="overlay">
+                    <a href="https://mattoss2.github.io/projet-2/" target="_blank" class="discover-btn">Découvrir</a>                   
+                </div>
+            </div>
+            <div class="description">
+            <h3 class="text-xl font-semibold">Booki</h3>
+            <p>Booki est un site de recherche d'hébergements et d'activités développé en Html&Css</p>
+                <ul>
+                    <li>la mise en place d'une interface responsive</li>
+                    <li>l'intégration du contenu conforme à sa maquette</li>
+                    <li>Validé par les Html&Css Validators</li>
+                    <li class="difficulty">difficultés rencontrées lors de la mise en place de l'interface responsive </li>
+                </ul>
+            
+        </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project">
+            <div class="project-inner">
+                <img src="./images/image.png" alt="Miniature Projet 2" class="project-image">
+                <div class="overlay">
+                    <a href="http://mattoss2.p6.com/" target="_blank" class="discover-btn">Découvrir</a>
+                </div>
+            </div>
+            <div class="description">
+                <h3 class="text-xl font-semibold">Kasa</h3>
+                <p>Kasa est un site de location immobilières développé avec React et configurée avec React Router </p>
+                
+                    <ul>
+                        <li>Configuration de la navigation entre les pages de l'app avec React Router</li>
+                        <li>Mise en œuvre des animations CSS et développement d'une interface web avec Sass</li>
+                        <li>Développement des éléments de l'interface du site web grâce à des composants React</li>
+                        <li class="difficulty">difficultés rencontrées lors de la mise en œuvre des animations CSS et développement d'une interface web avec Sass</li>
+                    </ul>
+                
+            </div>
+        </div>
+<!-- Project 3 -->
+        <div class="project">
+            <div class="project-inner">
+                <img src="./images/mvgrimoire.png" alt="Miniature Projet 3" class="project-image">
+                <div class="overlay">
+                    <a href="http://mattoss2p7-2.com" target="_blank" class="discover-btn">Découvrir</a>
+                </div>
+            </div>
+            <div class="description">
+                <h3 class="text-xl font-semibold">Mon Vieux Grimoire</h3>
+                <p>Mon Vieux Grimoire est un site de notation et d'ajout de livre</p>
+                    
+                    <ul>
+                        <li>Implémentation d'un modèle de logique de données conformément à la réglementation</li>
+                        <li>Mise en œuvre des opérations CRUD de manière sécurisée </li>
+                        <li>stockage des données de manière sécurisée</li>
+                        <li class="difficulty">difficultés rencontrées lors de la mise en œuvre des opérations CRUD </li>
+                    </ul>
+                
+            </div>                                      
+        </div>
+        
+    </section>
+
+    <div class="sectiontitle">
+         <h2 class="text-2xl font-bold mb-4" id="title">Compétences</h2> 
+        </div>
+
+    <section id="skills" class="my-8 px-6">
+        <div class="boxbox"> 
+       
+    <!-- skillbox1-->
+<div class="skill-box" data-modal-id="skillModal1">
+    
+    <div class="skill-icon"><i class="fab fa-html5 "></i><i class="fa-brands fa-css3"></i></div>
+
+    <!-- Modale pour les détails de la compétence -->
+    <div id="skillModal1" class="modal" style="display: none;">
+        <span class="closeModal">&times;</span>
+        <div class="modal-content">
+
+        
+         <div class="txtBox" id="txtBox">
+          <h3>HTML&CSS</h3>
+            <p>Voici quelques détails sur mes compétence en HTML&CSS...</p>
+        </div>
+            <ul>
+                <li>Maîtrise des balises HTML5</li>
+                <li>Conception de layouts responsifs avec CSS3</li>
+                <li>Utilisation de Flexbox et Grid pour l'agencement</li>
+                <li>Optimisation du CSS pour des performances maximales</li>
+                <li>Accessibilité et SEO-friendly markup</li>
+            </ul>
+            <a href="https://developer.mozilla.org/en/docs/Web/HTML">En savoir plus</a>
+        </div>
+    </div>
+</div>
+
+<!-- skillbox2-->
+<div class="skill-box" data-modal-id="skillModal2">
+    <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+    <!-- Modale pour les détails de la compétence -->
+    <div id="skillModal2" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="closeModal">&times;</span>
+            <div class="txtBox" id="txtBox2">
+            <h3>JavaScript</h3>
+            <p>Voici quelques détails sur mes compétence en JS...</p>
+            </div>
+            <ul>
+                <li>Développement du Back-end avec Node.js</li>
+                <li>développement avec React</li>
+                <li>configurer la navigation des pages avec React Router </li>
+                <li>Gestion des événements utilisateurs</li>
+                <li>Utilisations de formulaires et de scripts</li>
+            </ul>
+            <a href="https://developer.mozilla.org/en/docs/Web/JavaScript">En savoir plus</a>
+        </div>
+    </div>
+</div>
+
+<!-- skillbox3-->
+<div class="skill-box" data-modal-id="skillModal3">
+    <div class="skill-icon"><i class="fas fa-database"></i></div>
+    <!-- Modale pour les détails de la compétence -->
+    <div id="skillModal3" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="closeModal">&times;</span>
+            <div class="txtBox" id="txtBox3">
+            <h3>Back-end</h3>
+            <p>Voici quelques détails sur mes compétence en Back-end...</p>
+            </div>
+            <ul>
+                <li>implémenter un modèle logique de données</li>
+                <li>Mise en œuvre des opérations Crud sécurisées</li>
+                <li>Manipulation et stockage des données</li>
+                <li>Manipulation d'APIs</li>
+                <li>Mise en place d'une base de données</li>
+            </ul>
+            <a href="https://developer.mozilla.org/en/docs/Web/JavaScript">En savoir plus</a>
+        </div>
+    </div>
+</div>
+
+<!-- skillbox4-->
+<div class="skill-box" data-modal-id="skillModal4">
+    <div class="skill-icon"><i class="fa-solid fa-shield-virus"></i></div>
+    <!-- Modale pour les détails de la compétence -->
+    <div id="skillModal4" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="closeModal">&times;</span>
+            <div class="txtBox" id="txtBox4">
+            <h3>Cybersécurité</h3>
+            <p>Voici quelques détails sur mes compétence en Cybersécurité...</p>
+            </div>
+            <ul>
+                <li>Meilleurs cyberpratiques</li>
+                <li>Détéction de vulnérabilités du réseau</li>
+                <li>Protection des informations</li>
+                <li>Détection des menaces</li>
+                <li>Social engineering</li>
+            </ul>
+            <a href="https://www.credly.com/badges/b985478a-5b9e-40ee-b896-9e5c94e3da21/public_url">En savoir plus</a>
+        </div>
+    </div>
+</div>
+</div>
+    </section>
+    <div class="sectiontitle">
+    <h2 class="text-2xl font-bold mb-4">Contact</h2> </div>
+<section id="contact" class="my-8 px-6">
+    
+    <form action="https://formspree.io/f/xdoqpevz" method="POST" id="contact-form">
+        <label>
+            Votre email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Objet
+            <input type="text" name="sujet"> <!-- J'ai changé type="sujet" en type="text" -->
+        </label>
+        <label>
+            Votre message:
+            <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Envoyer</button>
+    </form>
+<div class="iconcontact" > 
+    <i class="fa-solid fa-envelope-open-text"></i>
+</div>
+
+</section>
+
+    <footer class="text-center p-6 text-white">
+        <p>&copy; 2024 Monville Mathys. Tous droits réservés.</p>
+
+        <script src ="script.js"></script>
+        <script src="https://kit.fontawesome.com/312aafe28e.js" crossorigin="anonymous"></script>
+    </footer>
+
+    </html>
+   
